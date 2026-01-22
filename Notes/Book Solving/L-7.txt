@@ -1,0 +1,109 @@
+---------------------------------------------L-7 DECISION MAKING AND LOOPING-----------------------------------------
+MCQ
+1. b
+2. d
+3. d
+4. a
+5. b
+
+--------------------------------------------------------------
+
+7.1 TRUE AND FALSE
+
+a. false
+b. false
+c. true
+d. true
+e. false
+f. false
+g. false
+h. true
+i. false
+j. true
+
+-------------------------------------------------------------
+
+7.2 Fill in the blanks
+
+a. while
+b. counter
+c. n + 1
+d. infinite
+e. continue
+f. while
+g. break
+
+-------------------------------------------------------------
+
+7.8
+
+a. It will add odd number upto 8 .
+b. the loop will run until the the condition n <= m will not reach
+c. the loop will run infinite because the end condition is not given
+d. loop will run infinte
+e. loop will run until n < 5
+
+-------------------------------------------------------------
+
+7.9
+
+a. 4,3,2,1,0
+b. 4,3,2,1
+c. infinite
+d. 10,8
+
+-------------------------------------------------------------
+
+7.11
+
+a. Infinite
+b. 4
+c. 6
+d. Infinite
+
+-------------------------------------------------------------
+
+7.12
+
+a. for(i=1;i<=32;i=i*2)
+	{
+		printf("%d",i);
+	}
+b. for(i=1;i<=243;i=i*3)
+	{
+		printf("%d",i);
+	}
+c. for(i=-4;i<=4;i=i+2)
+	{
+		printf("%d",i);
+	}
+
+---------------------------------------------Debugging Exercise----------------------------------------
+
+7.1 
+
+a. while(count != 10)
+	{
+		count = 1;
+		sum = sum + x;
+		count = count + 1;
+	}
+b. name = 0
+   do{name = name + 1;
+   printf("My name is jhon\n");}
+   while(name = 1);
+c. do
+   {
+	total = total + value;
+	scanf("%f",&value);
+   }
+   while(value != 999);
+d. for(x=1;x>10;x=x+1)
+   {
+	--------------------
+	-------------------
+   }
+e. {m = m+10;}
+f. {}
+
+-------------------------------------------------------------------------------------------------------------------------------

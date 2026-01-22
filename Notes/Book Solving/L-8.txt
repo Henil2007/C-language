@@ -1,0 +1,66 @@
+--------------------------Chapter - 8 : Array--------------------------
+
+---------------Multiple choice Question :--------------------
+8.1 B
+8.2 B
+8.3 A
+8.4 D
+8.5 D
+8.6 C
+
+--------------Review Question--------------------------
+
+8.1 True and False
+	a. False
+	b. True
+	c. True
+	d. False
+	e. True
+	f. True
+	g. False
+	h. False
+	i. False
+	j. False
+	k. False
+	l. True
+	
+8.2 Fill in the blanks
+	a. index
+	b. multidimensional
+	c. Sorting
+	d. run time
+	e. dynamic
+	f. garbage
+	g. null ('\0')
+	
+--------------------Debugging Exercise---------------------
+
+8.1 Identify errors :
+	a. int score[100];
+	b. float values[10][15];
+	c. No errors
+	d. float average[ROW][COLUMN];
+	e. No errors
+	f. int number[ROW];
+	g. size of array is missing in the decleration part
+	h. int x[COLUMN];
+
+8.2 Identify errors :
+	a. No errors
+	b. 
+	c. No errors
+	d. int m[2][4] = {(0,0,0,0),(1,1,1,1)}
+	e. float result[10] = {0};
+	
+8.3 Find the error if any...
+	a. for(i=0;i<3;i++)
+	b. for(i=0;i<5;i++)
+	   for(i=0;i<4;i++)
+	c. for(i=0;i<4;i++)
+	d. No error
+	
+8.4 y is an array with no size and no initializer.
+
+8.5 No error
+
+8.6 char string[] = "HELLO WORLD";

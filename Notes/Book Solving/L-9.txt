@@ -1,0 +1,41 @@
+---------------------------------Character Arrays and Strings---------------------------------
+---------------------------------Multiple choice Questions---------------------------------
+9.1 D
+9.2 C
+9.3 B
+9.4 A
+9.5 D
+9.6 A
+9.7 D
+
+---------------------------------Review Questions---------------------------------
+
+9.1 State True and False
+    a. False
+    b. True
+    c. True
+    d. True
+    e. False
+
+9.2 Fill in the blanks
+    a. %s
+    b. gets
+    c. puts
+    d. 3
+    e. strlen
+    f. strcpy
+    g. <stdlib.h>
+    h. strchr
+    i. s1 to s2
+    j. strcmp
+
+---------------------------------Debugging Exercises---------------------------------
+
+9.1 Find error if any...
+
+    a. strcpy(str,"GOD",3);
+        str[3] = '\0';
+    b. char str[15];
+    c. ifstrstr(("Balagurasamy","guru") != NULL)
+        printf("Substring is found");
+    d. 

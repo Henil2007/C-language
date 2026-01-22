@@ -1,0 +1,33 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int i=0,j=1;
+	char ch1 = 'A';
+	char ch2 = 'a';
+	clrscr();
+	while(j<80)
+	{
+		i=0;
+		while(i<25)
+		{
+			gotoxy(j,i+1);
+			textcolor(i);
+			sound(20);
+			delay(2);
+			nosound();
+			if(j%2 == 0)
+			{
+				cprintf("%c",ch2+i);
+			}
+			else
+			{
+				cprintf("%c",ch1+i);
+			}
+			i++;
+		}// End of inner loop
+		j++;
+	}// End of outer loop
+
+	getch();
+}
