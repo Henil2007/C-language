@@ -156,4 +156,4 @@ void updateFunction()
 
     if (!found)
         printf("Customer not found!\n");
-}
+} // End of update function
