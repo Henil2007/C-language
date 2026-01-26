@@ -144,8 +144,8 @@ void updateEmployee(struct Employee emp[], int n, int id)
 
             printf("\nEmployee updated successfully!");
             return;
-        }
-    }
+        }// End of if
+    } // end of for loop
     printf("\nEmployee not found!");
 } // End of Update function
 
@@ -159,11 +159,11 @@ void deleteEmployee(struct Employee emp[], int *n, int id)
             for (j = i; j < *n - 1; j++)
             {
                 emp[j] = emp[j + 1];
-            }
+            } // End of inner for loop
             (*n)--;
             printf("\nEmployee deleted successfully!");
             return;
-        }
-    }
+        } // End of if 
+    } // End of outer for loop
     printf("\nEmployee not found!");
 } // End of delete function
